@@ -278,6 +278,10 @@ nav .profile-details i{
   font-weight: 500;
   /* margin-bottom: 10px; */
 }
+.sales-boxes .box .title a{
+  color: black;
+  text-decoration: none;
+}
 .sales-boxes .sales-details li.topic{
   font-size: 20px;
   font-weight: 500;

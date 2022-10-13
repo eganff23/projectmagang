@@ -4,7 +4,8 @@
   <head>
     <meta charset="UTF-8">
    
-    <link rel="stylesheet" href="css/utama.css">
+    <link rel="stylesheet" href="css/harga.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
    
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +18,7 @@
     </div>
       <ul class="nav-links">
         <li>
-          <a href="utama.html" class="active">
+          <a href="utama.html">
             <i class=></i>
             <span class="links_name">Dashboard</span>
           </a>
@@ -29,7 +30,7 @@
           </a>
         </li>
         <li>
-          <a href="harga.html">
+          <a href="harga.html" class="active">
             <i class= ></i>
             <span class="links_name">Harga paket</span>
           </a>
@@ -43,7 +44,7 @@
         <li>
           <a href="#">
             <i class=></i>
-            <span class="links_name">Password</span>
+            <span class="links_name">Isolir</span>
           </a>
         </li>
         <li>
@@ -55,7 +56,13 @@
         <li>
           <a href="#">
             <i class= ></i>
-            <span class="links_name"> Isolir JWNET</span>
+            <span class="links_name">Metode Pembayaran</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class= ></i>
+            <span class="links_name"> Password</span>
           </a>
         </li>
         <li>
@@ -78,19 +85,108 @@
         <i class='bx bx-menu sidebarBtn'></i>
         <span class="history">Harga Paket</span>
       </div>
-      <div class="search-box">
-        <input type="text" placeholder="Search...">
-        <i class='bx bx-search' ></i>
-      </div>
       <div class="profile-details">
-        <!--<img src="images/profile.jpg" alt="">-->
+       
         <span class="admin_name">JWNET</span>
         <img class="rounded-circle" src="img/logoaj .png" alt="" style="width: 40px; height: 40px;">
         <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
     </div>
       </div>
     </nav>
+    <div class="content">
+      <div class="card one">
+        <div class="top">
+          <div class="title">Basic</div>
+          <div class="price-sec">
+            <span class="dollar">$</span>
+            <span class="price">14</span>
+            <span class="decimal">.99</span>
+          </div>
+        </div>
+        <div class="info">Limited features you will get on this package or plan</div>
+        <div class="details">
+          <div class="one">
+            <span>One Addons Domain</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>100GB Local Storage</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Lifetime Tech Support</span>
+            <i class="fas fa-times"></i>
+          </div>
+          <div class="one">
+            <span>Unlimited Data Transfer</span>
+            <i class="fas fa-times"></i>
+          </div>
+          <button>Purchase</button>
+        </div>
+      </div>
+      <div class="card two">
+        <div class="top">
+          <div class="title">Extended</div>
+          <div class="price-sec">
+            <span class="dollar">$</span>
+            <span class="price">16</span>
+            <span class="decimal">.99</span>
+          </div>
+        </div>
+        <div class="info">Only some features you will get on this package or plan</div>
+        <div class="details">
+          <div class="one">
+            <span>Five Addons Domain</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>200GB Local Storage</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Lifetime Tech Support</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Unlimited Data Transfer</span>
+            <i class="fas fa-times"></i>
+          </div>
+          <button>Purchase</button>
+        </div>
+      </div>
+      <div class="card three">
+        <div class="top">
+          <div class="title">Premium</div>
+          <div class="price-sec">
+            <span class="dollar">$</span>
+            <span class="price">18</span>
+            <span class="decimal">.99</span>
+          </div>
+        </div>
+        <div class="info">All features you will get on this package or plan</div>
+        <div class="details">
+          <div class="one">
+            <span>10 Addons Domain</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Unlimited Local Storage</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Lifetime Tech Support</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Unlimited Data Transfer</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <button>Purchase</button>
+        </div>
+      </div>
+    </div>
 </section>
+
     <script>
         let sidebar = document.querySelector(".sidebar");
      let sidebarBtn = document.querySelector(".sidebarBtn");
