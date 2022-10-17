@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
    
-    <link rel="stylesheet" href="css/history.css">
+    <link rel="stylesheet" href="css/pass.css">
    
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,7 +47,7 @@
           </a>
         </li>
         <li>
-          <a href="history.html" class="active">
+          <a href="history.html">
             <i class= ></i>
             <span class="links_name">History Pembayaran</span>
           </a>
@@ -59,7 +59,7 @@
           </a>
         </li>
         <li>
-          <a href="pass.html">
+          <a href="pass.html" class="active">
             <i class= ></i>
             <span class="links_name"> Password</span>
           </a>
@@ -82,7 +82,7 @@
     <nav>
       <div class="sidebar-button">
         <i class='bx bx-menu sidebarBtn'></i>
-        <span class="history">History</span>
+        <span class="history">Password</span>
       </div>
       
       <div class="profile-details">
@@ -92,17 +92,33 @@
     </div>
       </div>
     </nav>
-    <div class="table1">
-      <table class="table">
-        <tr>
-          <th>Nama</th>
-          <th>Alamat</th>
-          <th>No Telepon</th>
-          <th>Paket</th>
-          <th>Tanggal Pembayaran</th>
-          <th>Metode Pembayaran</th>
-        </tr>
-      </table>
+    <div class="wrapper">
+        <table class="tblpass">
+            <tr class="headerpass">
+                <td>Change Password</td>
+            </tr>
+            <tr class="current">
+                <td>Current Password</td>
+                <td>
+                <input type="password" name="currentPassword"></td>
+            </tr>
+            <tr class="newpass">
+                <td>New Password</td>
+                <td>
+                <input type="password" name="newPassword"></td>
+            </tr>
+            <tr class="confirmpass">
+                <td>Confirm Password</td>
+                <td>
+                <input type="password" name="confirmPassword"></td>
+            </tr>
+            <tr class="btn">
+                <td>
+                    <input type="submit" name="submit" value="Submit">
+                    <input type="reset" name="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
     </div>
   </section>
     <script>
